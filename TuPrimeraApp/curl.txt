@@ -1,0 +1,18 @@
+# Listar todos los contactos
+curl http://localhost:3001/contactos
+
+# Obtener un contacto por id
+curl http://localhost:3001/contactos/1
+
+# Crear un contacto
+curl -X POST http://localhost:3001/contactos \
+  -H "Content-Type: application/json" \
+  -d '{"nombre": "Ana Torres", "telefono": "555-3456", "email": "ana@email.com"}'
+
+# Actualizar un contacto
+curl -X PUT http://localhost:3001/contactos/1 \
+  -H "Content-Type: application/json" \
+  -d '{"nombre": "Ana Torres Updated", "telefono": "555-0000", "email": "ana@email.com"}'
+
+# Eliminar un contacto
+curl -X DELETE http://localhost:3001/contactos/1
