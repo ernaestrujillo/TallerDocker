@@ -1,0 +1,10 @@
+{
+  "name": "api-contactos",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.0.0",
+    "mysql2": "^3.0.0"
+  }
+}

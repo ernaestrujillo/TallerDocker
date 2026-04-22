@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCore", "AspNetCore", "{D70FA35D-25AA-0A46-E46A-25A48C79F5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaDocker", "AspNetCore\HolaDocker.csproj", "{89C684A1-23BD-AC7F-B1C0-845C3C62534E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89C684A1-23BD-AC7F-B1C0-845C3C62534E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C684A1-23BD-AC7F-B1C0-845C3C62534E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C684A1-23BD-AC7F-B1C0-845C3C62534E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C684A1-23BD-AC7F-B1C0-845C3C62534E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89C684A1-23BD-AC7F-B1C0-845C3C62534E} = {D70FA35D-25AA-0A46-E46A-25A48C79F5AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5768DC6-CA6B-44E7-A6F4-455C931B954F}
+	EndGlobalSection
+EndGlobal
